@@ -1,0 +1,29 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 992px,
+  lg: 1024px,
+  teste: 1111px,
+  xl: 1200px
+  // you can add a new breakpoint here.
+);
+
+$container-max-widths: (
+  sm: 768px,
+  md: 920px,
+  lg: 980px,
+  teste: 1111px,
+  xl: 1140px
+  // you can add a new breakpoint container-max-width here.
+);
+
+@import '../../../node_modules/bootstrap/scss/functions';            // required
+@import '../../../node_modules/bootstrap/scss/variables';            // required
+
+@import '../../../node_modules/bootstrap/scss/mixins/';              // reboot
+@import '../../../node_modules/bootstrap/scss/reboot';               // reboot
+
+@import '../../../node_modules/bootstrap/scss/grid';                 // grid
+@import '../../../node_modules/bootstrap/scss/utilities/display';    // grid
+@import '../../../node_modules/bootstrap/scss/utilities/flex';       // grid
+@import '../../../node_modules/bootstrap/scss/utilities/spacing';    // grid
